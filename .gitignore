@@ -1,0 +1,36 @@
+# Node
+client/node_modules
+npm-debug.log*
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env
+.env
+.env.*
+
+# Uploads / temp files
+server/uploads/*
+!server/uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build files
+client/dist/
+client/.vite/
+
+model/saved_model/checkpoint-5630/
+model/saved_model/*.safetensors
+model/saved_model/*.bin
+model/saved_model/optimizer.pt
+model/saved_model/rng_state.pth
+model/saved_model/scheduler.pt
+model/saved_model/trainer_state.json
+model/saved_model/training_args.bin
